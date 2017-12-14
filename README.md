@@ -1,1 +1,3 @@
-# knockout-mapping
+This library was originally used for a Knockout.JS project.  The default 'map' function did not extend all of the way down to elements in an array, which was very convenient for my project.  This specific project had many checkboxes used to select email recipients based on system events, an array was used to track whether a checkbox was enabled or not, as such, it was important to make each element in the array observable, a feature the then current version of Knockout.JS did not support.
+
+It also provides some helper POST functions that cleaned up the code by abstracting away the jQuery calls.  This was also helpful when I posted this code from the original Prototype.js library to the current jQuery library.
